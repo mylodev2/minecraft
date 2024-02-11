@@ -45,4 +45,5 @@ mode = "fancy"
 				sheep = true
 				creeper = true
 				player = true
+				enderman = true
 

@@ -1,5 +1,5 @@
-[14:30:36] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.6
-[14:30:36] [main/INFO]: Loading 76 mods:
+[14:59:24] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.6
+[14:59:24] [main/INFO]: Loading 76 mods:
 	- cloth-config 13.0.121
 	   \-- cloth-basic-math 0.6.1
 	- eatinganimationid 1.20+1.9.5
@@ -76,53 +76,66 @@
 	- sound_physics_remastered 1.20.4-1.3.1
 	- visuality 0.7.3+1.20.4
 	- xaerominimap 23.9.7
-[14:30:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mahesa/AppData/Roaming/.minecraft/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[14:30:37] [main/INFO]: Compatibility level set to JAVA_17
-[14:30:37] [main/WARN]: Reference map 'InvMove-mc1.20_fabric-refmap.json' for invmove-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:30:37] [main/INFO]: Loaded configuration file for ModernFix 5.13.0+mc1.20.4: 52 options available, 0 override(s) found
-[14:30:37] [main/INFO]: Applying Nashorn fix
-[14:30:37] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
-[14:30:38] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[14:30:38] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[14:30:38] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[14:30:38] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[14:30:38] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
-[14:30:38] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[14:30:38] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[14:30:38] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[14:30:38] [main/INFO]: Searching for graphics cards...
-[14:30:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[14:30:38] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon RX 6400, version=DriverVersion=31.0.12027.9001]
-[14:30:42] [main/INFO]: Vanilla bootstrap took 2994 milliseconds
-[14:30:42] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:30:42] [Render thread/INFO]: Setting user: Galvar
-[14:30:42] [Render thread/INFO]: Bypassed Mojang DFU
-[14:30:43] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[14:30:43] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
-[14:30:43] [Render thread/INFO]: [LambDynLights] Configuration loaded.
-[14:30:43] [Render thread/WARN]: Using Cloth Config GUI
-[14:30:43] [Worker-Main-1/INFO]: Checking mod updates...
-[14:30:43] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
-[14:30:43] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
-[14:30:43] [Render thread/INFO]: Reloading reverb parameters
-[14:30:43] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
-[14:30:43] [Render thread/INFO]: Backing up XaeroWaypoints...
-[14:30:43] [Render thread/INFO]: Done backing up XaeroWaypoints!
-[14:30:44] [Worker-Main-1/INFO]: Update available for 'presencefootsteps@1.10.0', (-> 1.11.1)
-[14:30:44] [Render thread/INFO]: Backend library: LWJGL version 3.3.2-snapshot
-[14:30:44] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
-[14:30:44] [Render thread/INFO]: OpenGL Renderer: AMD Radeon(TM) RX 6400
-[14:30:44] [Render thread/INFO]: OpenGL Version: 3.2.0 Core Profile Context 22.20.27.09.230330
-[14:30:44] [Render thread/INFO]: Debug functionality is disabled.
-[14:30:44] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
-[14:30:44] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
-[14:30:44] [Render thread/INFO]: Shaders are disabled
-[14:30:45] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[14:30:45] [Render thread/INFO]: Hardware information:
-[14:30:45] [Render thread/INFO]: CPU: 8x 12th Gen Intel(R) Core(TM) i3-12100F
-[14:30:45] [Render thread/INFO]: GPU: AMD Radeon(TM) RX 6400 (Supports OpenGL 3.2.0 Core Profile Context 22.20.27.09.230330)
-[14:30:45] [Render thread/INFO]: OS: Windows 10 (10.0)
-[14:30:45] [Worker-Main-1/ERROR]: Failed to retrieve profile key pair
+[14:59:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mahesa/AppData/Roaming/.minecraft/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[14:59:25] [main/INFO]: Compatibility level set to JAVA_17
+[14:59:25] [main/WARN]: Reference map 'InvMove-mc1.20_fabric-refmap.json' for invmove-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:59:25] [main/INFO]: Loaded configuration file for ModernFix 5.13.0+mc1.20.4: 52 options available, 0 override(s) found
+[14:59:25] [main/INFO]: Applying Nashorn fix
+[14:59:25] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[14:59:26] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[14:59:26] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[14:59:26] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[14:59:26] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[14:59:26] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[14:59:26] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[14:59:26] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[14:59:26] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[14:59:26] [main/INFO]: Searching for graphics cards...
+[14:59:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[14:59:26] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon RX 6400, version=DriverVersion=31.0.12027.9001]
+[14:59:30] [main/INFO]: Vanilla bootstrap took 2967 milliseconds
+[14:59:30] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:59:30] [Render thread/INFO]: Setting user: Galvar
+[14:59:30] [Render thread/INFO]: Bypassed Mojang DFU
+[14:59:31] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[14:59:31] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[14:59:31] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[14:59:31] [Render thread/WARN]: Using Cloth Config GUI
+[14:59:31] [Worker-Main-1/INFO]: Checking mod updates...
+[14:59:31] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[14:59:31] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[14:59:31] [Render thread/INFO]: Reloading reverb parameters
+[14:59:31] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[14:59:32] [Render thread/INFO]: Backend library: LWJGL version 3.3.2-snapshot
+[14:59:32] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
+[14:59:32] [Render thread/INFO]: OpenGL Renderer: AMD Radeon(TM) RX 6400
+[14:59:32] [Render thread/INFO]: OpenGL Version: 3.2.0 Core Profile Context 22.20.27.09.230330
+[14:59:32] [Worker-Main-1/INFO]: Update available for 'presencefootsteps@1.10.0', (-> 1.11.1)
+[14:59:32] [Render thread/INFO]: Debug functionality is disabled.
+[14:59:32] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1 && !RETRO_FILTER, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: TAA && !RETRO_FILTER, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1 && !RETRO_FILTER, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: TAA && !RETRO_FILTER, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: TAA && !RETRO_FILTER, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1 && !RETRO_FILTER, defaulting to true!
+[14:59:32] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[14:59:32] [Render thread/INFO]: Profile: HIGH (+0 options changed by user)
+[14:59:33] [Render thread/INFO]: Using shaderpack: BSL_v8.2.08.zip
+[14:59:33] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[14:59:33] [Render thread/INFO]: Hardware information:
+[14:59:33] [Render thread/INFO]: CPU: 8x 12th Gen Intel(R) Core(TM) i3-12100F
+[14:59:33] [Render thread/INFO]: GPU: AMD Radeon(TM) RX 6400 (Supports OpenGL 3.2.0 Core Profile Context 22.20.27.09.230330)
+[14:59:33] [Render thread/INFO]: OS: Windows 10 (10.0)
+[14:59:33] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[14:59:34] [Worker-Main-2/ERROR]: Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
 	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
@@ -133,12 +146,11 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:30:45] [Render thread/INFO]: Invalidating pack caches
-[14:30:45] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, cloth-config, eatinganimationid, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, invmove, iris, lambdynlights, modernfix, modmenu, presencefootsteps, pride, sodium, sound_physics_remastered, spruceui, visuality, xaerominimap, presencefootsteps:default_sound_pack_resourcepacks/default_sound_pack
-[14:30:45] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
-[14:30:45] [Worker-ResourceReload-4/INFO]: Found unifont_all_no_pua-15.1.04.hex, loading
-[14:30:45] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
-[14:30:46] [Render thread/ERROR]: suppressed exception
+[14:59:34] [Render thread/INFO]: Invalidating pack caches
+[14:59:34] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, cloth-config, eatinganimationid, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, invmove, iris, lambdynlights, modernfix, modmenu, presencefootsteps, pride, sodium, sound_physics_remastered, spruceui, visuality, xaerominimap, presencefootsteps:default_sound_pack_resourcepacks/default_sound_pack
+[14:59:34] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[14:59:34] [Worker-ResourceReload-5/INFO]: Found unifont_all_no_pua-15.1.04.hex, loading
+[14:59:35] [Render thread/ERROR]: suppressed exception
 java.net.SocketTimeoutException: Read timed out
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
@@ -179,7 +191,7 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 	at java.net.URLConnection.getContentLengthLong(URLConnection.java:509) ~[?:?]
 	at xaero.common.patreon.Patreon.checkPatreon(Patreon.java:78) ~[Xaeros_Minimap_23.9.7_Fabric_1.20.4.jar:?]
 	... 9 more
-[14:30:47] [Render thread/ERROR]: suppressed exception
+[14:59:36] [Render thread/ERROR]: suppressed exception
 java.net.SocketTimeoutException: Read timed out
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
@@ -220,45 +232,46 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 	at java.net.URLConnection.getContentLengthLong(URLConnection.java:509) ~[?:?]
 	at xaero.common.misc.Internet.checkModVersion(Internet.java:53) ~[Xaeros_Minimap_23.9.7_Fabric_1.20.4.jar:?]
 	... 9 more
-[14:30:47] [Render thread/INFO]: Registered player tracker system: minimap_synced
-[14:30:47] [Render thread/INFO]: No Optifine!
-[14:30:47] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
-[14:30:47] [Render thread/INFO]: Xaero's Minimap: Iris found!
-[14:30:47] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[14:30:47] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:30:47] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)
-[14:30:47] [Render thread/INFO]: Initializing Sound Physics
-[14:30:47] [Render thread/INFO]: EFX Extension recognized
-[14:30:47] [Render thread/INFO]: Max auxiliary sends: 4
-[14:30:47] [Render thread/INFO]: Aux slot 1 created
-[14:30:47] [Render thread/INFO]: Aux slot 2 created
-[14:30:47] [Render thread/INFO]: Aux slot 3 created
-[14:30:47] [Render thread/INFO]: Aux slot 4 created
-[14:30:47] [Render thread/INFO]: EFX ready
-[14:30:47] [Render thread/INFO]: Sound engine started
-[14:30:48] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:30:48] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:30:48] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:30:48] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[14:30:48] [Render thread/WARN]: Sound registered for unknown block id minecraft:grass
-[14:30:48] [Render thread/WARN]: Sound registered for unknown block id minecraft:grass
-[14:30:48] [Render thread/WARN]: Sound registered for unknown block id minecraft:grass
-[14:30:48] [Render thread/INFO]: Skipping non-result value minecraft:lantern=UNASSIGNED
-[14:30:48] [Render thread/INFO]: Skipping non-result value minecraft:soul_lantern=UNASSIGNED
-[14:30:48] [Render thread/INFO]: Successfully reloaded the minimap shaders!
-[14:30:48] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
-[14:30:49] [IO-Worker-1/INFO]: Could not authorize you against Realms server: Invalid session id
-[14:30:49] [IO-Worker-1/ERROR]: Couldn't connect to realms
+[14:59:36] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[14:59:36] [Render thread/INFO]: No Optifine!
+[14:59:36] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[14:59:36] [Render thread/INFO]: Xaero's Minimap: Iris found!
+[14:59:36] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[14:59:36] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:59:36] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)
+[14:59:36] [Render thread/INFO]: Initializing Sound Physics
+[14:59:36] [Render thread/INFO]: EFX Extension recognized
+[14:59:36] [Render thread/INFO]: Max auxiliary sends: 4
+[14:59:36] [Render thread/INFO]: Aux slot 1 created
+[14:59:36] [Render thread/INFO]: Aux slot 2 created
+[14:59:36] [Render thread/INFO]: Aux slot 3 created
+[14:59:36] [Render thread/INFO]: Aux slot 4 created
+[14:59:36] [Render thread/INFO]: EFX ready
+[14:59:36] [Render thread/INFO]: Sound engine started
+[14:59:36] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[14:59:36] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[14:59:36] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:59:36] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:59:36] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14:59:36] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:59:36] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14:59:36] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:59:36] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:59:36] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14:59:37] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:59:37] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:59:37] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:59:37] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[14:59:37] [Render thread/WARN]: Sound registered for unknown block id minecraft:grass
+[14:59:37] [Render thread/WARN]: Sound registered for unknown block id minecraft:grass
+[14:59:37] [Render thread/WARN]: Sound registered for unknown block id minecraft:grass
+[14:59:37] [Render thread/INFO]: Skipping non-result value minecraft:lantern=UNASSIGNED
+[14:59:37] [Render thread/INFO]: Skipping non-result value minecraft:soul_lantern=UNASSIGNED
+[14:59:37] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[14:59:37] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[14:59:37] [Render thread/INFO]: Starting custom uniform resolving
+[14:59:37] [IO-Worker-1/INFO]: Could not authorize you against Realms server: Invalid session id
+[14:59:37] [IO-Worker-1/ERROR]: Couldn't connect to realms
 net.minecraft.class_4355: Realms authentication error with message 'Invalid session id'
 	at net.minecraft.class_4341.method_20998(class_4341.java:447) ~[client-intermediary.jar:?]
 	at net.minecraft.class_4341.method_21027(class_4341.java:232) ~[client-intermediary.jar:?]
@@ -267,76 +280,127 @@ net.minecraft.class_4355: Realms authentication error with message 'Invalid sess
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[14:30:50] [Render thread/WARN]: Game took 14.898 seconds to start
-[14:30:54] [Render thread/INFO]: Loaded 7 recipes
-[14:30:54] [Render thread/INFO]: Loaded 1271 advancements
-[14:30:54] [Render thread/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.471 ms
-[14:30:54] [Server thread/INFO]: Starting integrated minecraft server version 1.20.4
-[14:30:54] [Server thread/INFO]: Generating keypair
-[14:30:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:30:55] [Render thread/INFO]: Preparing spawn area: 0%
-[14:30:55] [Render thread/INFO]: Preparing spawn area: 0%
-[14:30:55] [Render thread/INFO]: Preparing spawn area: 0%
-[14:30:55] [Render thread/INFO]: Time elapsed: 1209 ms
-[14:30:55] [Server thread/INFO]: Changing view distance to 12, from 10
-[14:30:55] [Server thread/INFO]: Changing simulation distance to 12, from 0
-[14:30:56] [Server thread/INFO]: Galvar[local:E:995d65c4] logged in with entity id 211 at (4.793084642133054, 119.0, -8.027561645758583)
-[14:30:56] [Server thread/INFO]: Galvar joined the game
-[14:30:56] [Render thread/INFO]: New minimap session initialized!
-[14:30:56] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
-[14:30:56] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
-[14:30:56] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
-[14:30:56] [Render thread/INFO]: Started 2 worker threads
-[14:30:56] [Render thread/INFO]: Minimap updated server level id: 1976347801 for world ResourceKey[minecraft:dimension / minecraft:overworld]
-[14:30:56] [Render thread/INFO]: Loaded 2 advancements
-[14:30:56] [Render thread/WARN]: Received passengers for unknown entity
-[14:30:57] [Render thread/INFO]: Reloading entity icon resources...
-[14:30:57] [Render thread/INFO]: Done!
-[14:30:57] [Render thread/WARN]: Time from main menu to in-game was 3.08001 seconds
-[14:30:57] [Render thread/WARN]: Total time to load game and open world was 17.97801 seconds
-[14:30:58] [Server thread/INFO]: Saving and pausing game...
-[14:30:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:overworld
-[14:30:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_nether
-[14:30:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_end
-[14:31:08] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1 && !RETRO_FILTER, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: TAA && !RETRO_FILTER, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1 && !RETRO_FILTER, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: TAA && !RETRO_FILTER, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: TAA && !RETRO_FILTER, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1 && !RETRO_FILTER, defaulting to true!
-[14:31:08] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
-[14:31:08] [Render thread/INFO]: Profile: HIGH (+0 options changed by user)
-[14:31:08] [Render thread/INFO]: Using shaderpack: BSL_v8.2.08.zip
-[14:31:08] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
-[14:31:08] [Render thread/INFO]: Starting custom uniform resolving
-[14:31:09] [Render thread/WARN]: [Patcher] gl_FragColor is not supported yet, please use gl_FragData! Assuming that the shaderpack author intended to use gl_FragData[0]...
-[14:31:10] [Render thread/INFO]: Stopping worker threads
-[14:31:10] [Render thread/INFO]: Started 2 worker threads
-[14:31:40] [Server thread/INFO]: Saving and pausing game...
-[14:31:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:overworld
-[14:31:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_nether
-[14:31:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_end
-[14:31:40] [Render thread/INFO]: Minimap session finalized.
-[14:31:40] [Server thread/INFO]: Galvar lost connection: Disconnected
-[14:31:40] [Server thread/INFO]: Galvar left the game
-[14:31:40] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[14:31:41] [Server thread/INFO]: Stopping server
-[14:31:41] [Server thread/INFO]: Saving players
-[14:31:41] [Server thread/INFO]: Saving worlds
-[14:31:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:overworld
-[14:31:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_nether
-[14:31:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_end
-[14:31:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (real nigga): All chunks are saved
-[14:31:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:31:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:31:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:31:41] [Render thread/INFO]: Stopping worker threads
-[14:31:42] [Render thread/INFO]: Stopping!
+[14:59:37] [Render thread/WARN]: [Patcher] gl_FragColor is not supported yet, please use gl_FragData! Assuming that the shaderpack author intended to use gl_FragData[0]...
+[14:59:40] [Render thread/WARN]: Game took 17.213 seconds to start
+[14:59:46] [Render thread/INFO]: Loaded 7 recipes
+[14:59:46] [Render thread/INFO]: Loaded 1271 advancements
+[14:59:46] [Render thread/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.109 ms
+[14:59:46] [Server thread/INFO]: Starting integrated minecraft server version 1.20.4
+[14:59:46] [Server thread/INFO]: Generating keypair
+[14:59:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:59:47] [Render thread/INFO]: Preparing spawn area: 0%
+[14:59:47] [Render thread/INFO]: Preparing spawn area: 0%
+[14:59:48] [Render thread/INFO]: Preparing spawn area: 0%
+[14:59:48] [Render thread/INFO]: Time elapsed: 1292 ms
+[14:59:48] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:59:48] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[14:59:48] [Server thread/INFO]: Galvar[local:E:08c8676a] logged in with entity id 208 at (40.756257443299475, 117.24918707874468, -13.687681369472907)
+[14:59:48] [Server thread/INFO]: Galvar joined the game
+[14:59:48] [Render thread/INFO]: New minimap session initialized!
+[14:59:48] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[14:59:48] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[14:59:48] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[14:59:48] [Render thread/INFO]: Starting custom uniform resolving
+[14:59:48] [Render thread/WARN]: [Patcher] gl_FragColor is not supported yet, please use gl_FragData! Assuming that the shaderpack author intended to use gl_FragData[0]...
+[14:59:49] [Render thread/INFO]: Started 2 worker threads
+[14:59:49] [Render thread/INFO]: Minimap updated server level id: 1976347801 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[14:59:49] [Render thread/INFO]: Loaded 2 advancements
+[14:59:49] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[14:59:50] [Render thread/WARN]: Shader clouds could not find uniform named ModelViewMat in the specified shader program.
+[14:59:50] [Render thread/WARN]: Shader clouds could not find uniform named ProjMat in the specified shader program.
+[14:59:50] [Render thread/WARN]: Shader clouds could not find uniform named ColorModulator in the specified shader program.
+[14:59:50] [Render thread/WARN]: Shader clouds could not find uniform named FogStart in the specified shader program.
+[14:59:50] [Render thread/WARN]: Shader clouds could not find uniform named FogEnd in the specified shader program.
+[14:59:50] [Render thread/WARN]: Shader clouds could not find uniform named FogColor in the specified shader program.
+[14:59:50] [Render thread/INFO]: Reloading entity icon resources...
+[14:59:50] [Render thread/INFO]: Done!
+[14:59:50] [Render thread/WARN]: Time from main menu to in-game was 3.6264145 seconds
+[14:59:50] [Render thread/WARN]: Total time to load game and open world was 20.839415 seconds
+[14:59:55] [Render thread/WARN]: Class xaero.common.minimap.render.radar.EntityIconModelPartsRenderer$VertexConsumerWrapper does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[15:00:00] [Render thread/INFO]: Loaded 3 advancements
+[15:00:05] [Server thread/INFO]: Saving and pausing game...
+[15:00:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:overworld
+[15:00:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_end
+[15:00:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_nether
+[15:00:11] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/WARN]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[15:00:11] [Render thread/INFO]: Profile: HIGH (+0 options changed by user)
+[15:00:12] [Render thread/INFO]: Using shaderpack: ComplementaryReimagined_r5.1.1.zip
+[15:00:12] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[15:00:12] [Render thread/INFO]: Starting custom uniform resolving
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10092":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10152":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10240":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10364":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10100":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10084":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10032":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10088":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10104":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10096":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone has no property with the name variant, ignoring!
+[15:00:13] [Render thread/WARN]: Error while parsing the block ID map entry for "block.10416":
+[15:00:13] [Render thread/WARN]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[15:00:13] [Render thread/INFO]: Stopping worker threads
+[15:00:13] [Render thread/INFO]: Started 2 worker threads
+[15:00:14] [Render thread/WARN]: Shader clouds could not find uniform named ModelViewMat in the specified shader program.
+[15:00:14] [Render thread/WARN]: Shader clouds could not find uniform named ProjMat in the specified shader program.
+[15:00:14] [Render thread/WARN]: Shader clouds could not find uniform named ColorModulator in the specified shader program.
+[15:00:14] [Render thread/WARN]: Shader clouds could not find uniform named FogStart in the specified shader program.
+[15:00:14] [Render thread/WARN]: Shader clouds could not find uniform named FogEnd in the specified shader program.
+[15:00:14] [Render thread/WARN]: Shader clouds could not find uniform named FogColor in the specified shader program.
+[15:00:50] [IO-Worker-4/INFO]: System default audio device has changed!
+[15:00:50] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[15:00:50] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:00:50] [Sound engine/ERROR]: Stop: Invalid name parameter.
+[15:00:50] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
+[15:00:50] [Render thread/INFO]: Initializing Sound Physics
+[15:00:50] [Render thread/INFO]: EFX Extension recognized
+[15:00:50] [Render thread/INFO]: Max auxiliary sends: 4
+[15:00:50] [Render thread/INFO]: Aux slot 1 created
+[15:00:50] [Render thread/INFO]: Aux slot 2 created
+[15:00:50] [Render thread/INFO]: Aux slot 3 created
+[15:00:50] [Render thread/INFO]: Aux slot 4 created
+[15:00:50] [Render thread/INFO]: EFX ready
+[15:00:50] [Render thread/INFO]: Sound engine started
+[15:01:10] [Server thread/INFO]: Saving and pausing game...
+[15:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:overworld
+[15:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_end
+[15:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_nether
+[15:02:16] [Server thread/INFO]: Saving and pausing game...
+[15:02:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:overworld
+[15:02:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_end
+[15:02:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_nether
+[15:02:41] [Render thread/INFO]: Minimap session finalized.
+[15:02:41] [Server thread/INFO]: Galvar lost connection: Disconnected
+[15:02:41] [Server thread/INFO]: Galvar left the game
+[15:02:41] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[15:02:41] [Server thread/INFO]: Stopping server
+[15:02:41] [Server thread/INFO]: Saving players
+[15:02:41] [Server thread/INFO]: Saving worlds
+[15:02:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:overworld
+[15:02:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_end
+[15:02:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[real nigga]'/minecraft:the_nether
+[15:02:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (real nigga): All chunks are saved
+[15:02:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:02:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:02:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:02:41] [Render thread/INFO]: Stopping worker threads
+[15:02:42] [Render thread/INFO]: Stopping!

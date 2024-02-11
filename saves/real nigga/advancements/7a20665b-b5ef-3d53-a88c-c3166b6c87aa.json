@@ -8,9 +8,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2024-02-11 14:27:46 +0800",
+      "minecraft:cherry_grove": "2024-02-11 15:00:00 +0800",
       "minecraft:plains": "2024-02-11 14:28:00 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-02-11 15:00:00 +0800"
+    },
+    "done": true
   },
   "DataVersion": 3700
 }
